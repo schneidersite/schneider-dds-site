@@ -1,0 +1,226 @@
+﻿:root {
+}
+
+
+.header-style-logo-text {
+  --ss-header-background-color: #e0e0e0;
+  --ss-header-background-alpha: calc(100% * 0.0);
+}
+
+.header-style-logo-text .branding {
+  padding-top: 28px;
+  padding-bottom: 28px;
+  text-align: center;
+}
+
+.header-style-logo-text .logo {
+  width: 77.56286266924565%;
+}
+
+.header-style-logo-text h1 {
+  color: #24648b;
+    font-family: 'Viga', sans-serif;
+  font-size: 36px;
+}
+
+.header-style-logo-text h2 {
+  color: #696969;
+    font-family: 'Racing Sans One', sans-serif;
+  font-size: 22px;
+}
+
+
+.primary-navigation,
+.primary-navigation .page-listing a div,
+.primary-navigation .page-listing ul,
+.location-quick-links {
+  background-color: #24648b;
+}
+
+  /* Duplicated in _primary_nav.scss */
+  /* @media (min-width: $desktop-breakpoint - 1) { */
+  @media (max-width: 967px) {
+    .primary-navigation .page-listing {
+      background-color: #24648b;
+    }
+  }
+
+  .primary-navigation .menu-toggle {
+    background-color: rgba(36, 100, 139, 0.9);
+  }
+
+  .primary-navigation .page-listing li,
+  .location-quick-links a {
+    border-color: #e0e0e0;
+  }
+
+    /* Duplicated in _primary_nav.scss */
+    /* @media (min-width: $desktop-breakpoint - 1) { */
+    @media (max-width: 967px) {
+      .primary-navigation .page-listing > li {
+        border-color: rgba(224, 224, 224, 0.8);
+      }
+    }
+
+  .primary-navigation a,
+  .primary-navigation .arrow,
+  .location-quick-links a {
+    color: #e0e0e0;
+  }
+
+    .primary-navigation a div:hover {
+      border-color: #e0e0e0;
+      color: #e0e0e0;
+    }
+
+    .primary-navigation a.active div {
+      background: #e0e0e0;
+      color: #24648b;
+    }
+
+    .primary-navigation .page-listing ul ul {
+      background: #e0e0e0;
+    }
+
+      .primary-navigation .page-listing ul li {
+        border-color: rgba(224, 224, 224, 0.5);
+      }
+
+  /* @media (min-width: $desktop-breakpoint) { */
+  @media (min-width: 968px) {
+    .layout-one_column_wide_nav_in_header .primary-navigation a div {
+      color: #24648b;
+    }
+
+    .layout-one_column_wide_nav_in_header .primary-navigation .page-listing ul {
+      background-color: #e0e0e0;
+    }
+
+    .layout-one_column_wide_nav_in_header .primary-navigation .page-listing ul li {
+      border-color: rgba(36, 100, 139, 0.5);
+    }
+
+    .layout-one_column_wide_nav_in_header .primary-navigation a div:hover {
+      border-color: #24648b;
+    }
+  }
+
+.site-search--overlay {
+  background: rgba(36, 100, 139, 0.8) !important;
+}
+
+.site-search--overlay input[type="text"],
+.site-search--overlay form button,
+.site-search--overlay .site-search:after {
+  color: #e0e0e0;
+}
+
+.site-search--overlay input[type="text"] {
+  border-bottom-color: rgba(224, 224, 224, 0.8);
+}
+
+.site-search--overlay input[type="text"]::placeholder {
+  color: rgba(224, 224, 224, 0.8);
+  opacity: 1;
+}
+
+
+.site-container {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.primary-navigation,
+.location-quick-links {
+    font-family: 'Viga', sans-serif;
+}
+
+.primary-navigation .page-listing li {
+  font-size: 16px;
+}
+
+.post--title,
+.post-column_set .column--title,
+.post-gallery .gallery-photo--title,
+.post-menu .item--name,
+.post-pricing_table .plan--title,
+.footer-container .footer-heading,
+.footer-container .location_details .menu {
+    font-family: 'Viga', sans-serif;
+}
+
+
+.post-button {
+
+    border-style: none;
+
+  border-radius: 5px;
+
+
+    box-shadow: none;
+}
+
+
+body {
+  background-color: #e0e0e0;
+}
+
+body:before {
+    background-image: url(../../../6F94bjpiuiQeXfKrcKjHWcLiLW__4bNCIpH3vM1rZk8/w1920/plain/https/02f0a56ef46d93f03c90-22ac5f107621879d5667e0d7ed595bdb.ssl.cf2.rackcdn.com/sites/35943/photos/1750065/grey-light-smooth-moving-waves-background.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* Footer */
+.footer-container {
+  --ss-footer-navigation-color: #ffffff;
+
+  background: #1a1a1a;
+  background: rgba(26, 26, 26, 0.89);
+  color: #ffffff;
+}
+
+/* Headings and location information/details links */
+.footer-container .footer-heading,
+.footer-container .locations .location_details a,
+.footer-container div.locations div.location_details {
+  color: #24648b;
+}
+
+.footer-container nav ul ul {
+  background-color: #1a1a1a;
+}
+
+/* Location details active menu items */
+.footer-container div.locations div.location_details .menu a.active {
+  background-color: #24648b;
+  color: #1a1a1a;
+}
+
+/* Location email address links */
+.footer-container div.locations a {
+  color: #ffffff;
+}
+
+.footer-container div.locations .location_details .map iframe {
+  border-color: #ffffff;
+}
+
+/* Copyright */
+.main-container div.copyright {
+  color: #ffffff;
+}
+
+.main-container div.copyright a {
+  color: #ffffff;
+}
+
+.main-container .connect a {
+  background-color: #ffffff;
+}
+
+.main-container .connect .fab {
+  color: #1a1a1a;
+}
+
